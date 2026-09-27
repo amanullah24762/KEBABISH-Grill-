@@ -1,0 +1,13 @@
+{"timestamp":"00:00:03.460","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:03.461","source":"Server","level":"LOG","message":"  We detected TypeScript in your project and reconfigured your tsconfig.json file for you."}
+{"timestamp":"00:00:03.461","source":"Server","level":"LOG","message":"  The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:\n"}
+{"timestamp":"00:00:03.461","source":"Server","level":"LOG","message":"  \t- include was updated to add '.next/dev/types/**/*.ts'"}
+{"timestamp":"00:00:03.462","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:03.462","source":"Server","level":"LOG","message":"  The following mandatory changes were made to your tsconfig.json:\n"}
+{"timestamp":"00:00:03.462","source":"Server","level":"LOG","message":"  \t- jsx was set to react-jsx (next.js uses the React automatic runtime)"}
+{"timestamp":"00:00:03.462","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:03.699","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:12.052","source":"Server","level":"LOG","message":"○ Compiling / ..."}
+{"timestamp":"00:00:33.784","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:00:34.743","source":"Browser","level":"WARN","message":"Image with src \"https://static.where-e.com/Pakistan/Kebabish-Grill-Family-Restaurant-Bbq-Abdul-Hakim_66096a21d639790381a0c67f6b3468d0.jpg?class=mobile\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
+{"timestamp":"00:00:34.946","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"https://static.where-e.com/Pakistan/Kebabish-Grill-Family-Restaurant-Bbq-Abdul-Hakim_66096a21d639790381a0c67f6b3468d0.jpg?class=mobile\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\\u001b[39m\""}

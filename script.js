@@ -1,0 +1,10 @@
+const nav = document.querySelector('nav');
+const toggle = document.querySelector('.menu-toggle');
+toggle.addEventListener('click', () => { const open = nav.classList.toggle('open'); toggle.setAttribute('aria-expanded', open); });
+document.querySelectorAll('nav a').forEach(a => a.addEventListener('click', () => nav.classList.remove('open')));
+const observer = new IntersectionObserver(entries => entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }}), {threshold:.14});
+document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+const box = document.querySelector('.lightbox'), boxImage = box.querySelector('img');
+document.querySelectorAll('.gallery-item').forEach(item => item.addEventListener('click', () => { boxImage.src = item.dataset.full; box.classList.add('open'); box.setAttribute('aria-hidden','false'); }));
+box.addEventListener('click', e => { if (e.target === box || e.target.tagName === 'BUTTON') { box.classList.remove('open'); box.setAttribute('aria-hidden','true'); }});
+document.addEventListener('keydown', e => { if(e.key === 'Escape') box.classList.remove('open'); });
