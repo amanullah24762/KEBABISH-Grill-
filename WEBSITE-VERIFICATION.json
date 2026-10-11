@@ -1,0 +1,297 @@
+{
+  "site": "https://kebabish-grill-qcfe.vercel.app/",
+  "inspectedAtApproximateUTC": "2026-10-11T06:48:00Z",
+  "method": "Read-only HTTP GET of page HTML and stylesheet; HTTP HEAD of selected photo variants and SVG logo. No browser execution, form submission or message sending.",
+  "pages": [
+    {
+      "path": "/",
+      "result": "HTML retrieved successfully",
+      "title": "Kebabish Grill | Family Restaurant & Marriage Hall, Abdul Hakim"
+    },
+    {
+      "path": "/menu",
+      "result": "HTML retrieved successfully",
+      "title": "Menu | Kebabish Grill"
+    },
+    {
+      "path": "/about",
+      "result": "HTML retrieved successfully",
+      "title": "About Us | Kebabish Grill"
+    },
+    {
+      "path": "/offers",
+      "result": "HTML retrieved successfully",
+      "title": "Offers & Occasions | Kebabish Grill"
+    },
+    {
+      "path": "/gallery",
+      "result": "HTML retrieved successfully",
+      "title": "Gallery | Kebabish Grill"
+    },
+    {
+      "path": "/reviews",
+      "result": "HTML retrieved successfully",
+      "title": "Guest Reviews | Kebabish Grill"
+    },
+    {
+      "path": "/marriage-hall",
+      "result": "HTML retrieved successfully",
+      "title": "Marriage Hall | Kebabish Grill"
+    },
+    {
+      "path": "/contact",
+      "result": "HTML retrieved successfully",
+      "title": "Contact | Kebabish Grill"
+    },
+    {
+      "path": "/booking",
+      "result": "HTML retrieved successfully",
+      "title": "Book a Table or Event | Kebabish Grill"
+    }
+  ],
+  "categoryChecks": [
+    {
+      "path": "/menu?category=BBQ",
+      "status": 200,
+      "initialFoodCards": [
+        "BBQ & Tikka"
+      ]
+    },
+    {
+      "path": "/menu?category=Rice",
+      "status": 200,
+      "initialFoodCards": [
+        "Rice & Biryani"
+      ]
+    }
+  ],
+  "missingPage": {
+    "path": "/documentation-check-missing-page",
+    "status": 404,
+    "visualTemplateVerified": false
+  },
+  "deploymentEvidence": {
+    "avifPictureSources": true,
+    "webpFallback": true,
+    "heroResponsiveAVIFPreload": true,
+    "heroHighFetchPriority": true,
+    "homeMenuCardsInInitialHTML": true,
+    "menuCardsInInitialHTML": true,
+    "oldMenuClientRenderingBailout": false,
+    "goldPaletteInCSS": true,
+    "heroAnimationDisabledInCSS": true
+  },
+  "images": [
+    {
+      "path": "/images/optimized/restaurant-interior-0345bf2b750c-1200.avif",
+      "exit": 0,
+      "status": "200",
+      "bytes": 83201,
+      "type": "image/avif",
+      "cache": "HIT",
+      "cacheControl": "public, max-age=31536000, immutable",
+      "date": "Sun, 11 Oct 2026 06:48:07 GMT"
+    },
+    {
+      "path": "/images/optimized/restaurant-interior-0345bf2b750c-1200.webp",
+      "exit": 0,
+      "status": "200",
+      "bytes": 121138,
+      "type": "image/webp",
+      "cache": "MISS",
+      "cacheControl": "public, max-age=31536000, immutable",
+      "date": "Sun, 11 Oct 2026 06:48:07 GMT"
+    },
+    {
+      "path": "/images/optimized/bbq-platter-5adc7b4bf8ef-727.avif",
+      "exit": 0,
+      "status": "200",
+      "bytes": 56840,
+      "type": "image/avif",
+      "cache": "HIT",
+      "cacheControl": "public, max-age=31536000, immutable",
+      "date": "Sun, 11 Oct 2026 06:48:07 GMT"
+    },
+    {
+      "path": "/images/optimized/bbq-platter-5adc7b4bf8ef-727.webp",
+      "exit": 0,
+      "status": "200",
+      "bytes": 84032,
+      "type": "image/webp",
+      "cache": "MISS",
+      "cacheControl": "public, max-age=31536000, immutable",
+      "date": "Sun, 11 Oct 2026 06:48:06 GMT"
+    },
+    {
+      "path": "/images/optimized/family-meal-26fad5bf25db-1200.avif",
+      "exit": 0,
+      "status": "200",
+      "bytes": 73105,
+      "type": "image/avif",
+      "cache": "HIT",
+      "cacheControl": "public, max-age=31536000, immutable",
+      "date": "Sun, 11 Oct 2026 06:48:05 GMT"
+    },
+    {
+      "path": "/images/optimized/family-meal-26fad5bf25db-1200.webp",
+      "exit": 0,
+      "status": "200",
+      "bytes": 91242,
+      "type": "image/webp",
+      "cache": "MISS",
+      "cacheControl": "public, max-age=31536000, immutable",
+      "date": "Sun, 11 Oct 2026 06:48:06 GMT"
+    },
+    {
+      "path": "/images/optimized/rice-platter-2ca01db9b096-720.avif",
+      "exit": 0,
+      "status": "200",
+      "bytes": 47232,
+      "type": "image/avif",
+      "cache": "HIT",
+      "cacheControl": "public, max-age=31536000, immutable",
+      "date": "Sun, 11 Oct 2026 06:48:05 GMT"
+    },
+    {
+      "path": "/images/optimized/rice-platter-2ca01db9b096-720.webp",
+      "exit": 0,
+      "status": "200",
+      "bytes": 66720,
+      "type": "image/webp",
+      "cache": "MISS",
+      "cacheControl": "public, max-age=31536000, immutable",
+      "date": "Sun, 11 Oct 2026 06:48:05 GMT"
+    },
+    {
+      "path": "/images/optimized/chinese-platter-df701b8c69af-1200.avif",
+      "exit": 0,
+      "status": "200",
+      "bytes": 74366,
+      "type": "image/avif",
+      "cache": "HIT",
+      "cacheControl": "public, max-age=31536000, immutable",
+      "date": "Sun, 11 Oct 2026 06:48:04 GMT"
+    },
+    {
+      "path": "/images/optimized/chinese-platter-df701b8c69af-1200.webp",
+      "exit": 0,
+      "status": "200",
+      "bytes": 110068,
+      "type": "image/webp",
+      "cache": "MISS",
+      "cacheControl": "public, max-age=31536000, immutable",
+      "date": "Sun, 11 Oct 2026 06:48:04 GMT"
+    },
+    {
+      "path": "/images/optimized/celebration-stage-277f65b2def6-1156.avif",
+      "exit": 0,
+      "status": "200",
+      "bytes": 80105,
+      "type": "image/avif",
+      "cache": "HIT",
+      "cacheControl": "public, max-age=31536000, immutable",
+      "date": "Sun, 11 Oct 2026 06:48:03 GMT"
+    },
+    {
+      "path": "/images/optimized/celebration-stage-277f65b2def6-1156.webp",
+      "exit": 0,
+      "status": "200",
+      "bytes": 131912,
+      "type": "image/webp",
+      "cache": "MISS",
+      "cacheControl": "public, max-age=31536000, immutable",
+      "date": "Sun, 11 Oct 2026 06:48:03 GMT"
+    },
+    {
+      "path": "/images/optimized/family-dining-47a4de08f980-1200.avif",
+      "exit": 0,
+      "status": "200",
+      "bytes": 130356,
+      "type": "image/avif",
+      "cache": "HIT",
+      "cacheControl": "public, max-age=31536000, immutable",
+      "date": "Sun, 11 Oct 2026 06:48:00 GMT"
+    },
+    {
+      "path": "/images/optimized/family-dining-47a4de08f980-1200.webp",
+      "exit": 0,
+      "status": "200",
+      "bytes": 201146,
+      "type": "image/webp",
+      "cache": "MISS",
+      "cacheControl": "public, max-age=31536000, immutable",
+      "date": "Sun, 11 Oct 2026 06:48:02 GMT"
+    },
+    {
+      "path": "/images/optimized/restaurant-entrance-aa292fea38ab-947.avif",
+      "exit": 0,
+      "status": "200",
+      "bytes": 109132,
+      "type": "image/avif",
+      "cache": "MISS",
+      "cacheControl": "public, max-age=31536000, immutable",
+      "date": "Sun, 11 Oct 2026 06:48:03 GMT"
+    },
+    {
+      "path": "/images/optimized/restaurant-entrance-aa292fea38ab-947.webp",
+      "exit": 0,
+      "status": "200",
+      "bytes": 175304,
+      "type": "image/webp",
+      "cache": "MISS",
+      "cacheControl": "public, max-age=31536000, immutable",
+      "date": "Sun, 11 Oct 2026 06:48:02 GMT"
+    },
+    {
+      "path": "/images/optimized/celebration-dining-7a2f49686119-1200.avif",
+      "exit": 0,
+      "status": "200",
+      "bytes": 83672,
+      "type": "image/avif",
+      "cache": "MISS",
+      "cacheControl": "public, max-age=31536000, immutable",
+      "date": "Sun, 11 Oct 2026 06:48:01 GMT"
+    },
+    {
+      "path": "/images/optimized/celebration-dining-7a2f49686119-1200.webp",
+      "exit": 0,
+      "status": "200",
+      "bytes": 118054,
+      "type": "image/webp",
+      "cache": "MISS",
+      "cacheControl": "public, max-age=31536000, immutable",
+      "date": "Sun, 11 Oct 2026 06:48:01 GMT"
+    },
+    {
+      "path": "/images/optimized/restaurant-interior-0345bf2b750c-320.avif",
+      "exit": 0,
+      "status": "200",
+      "bytes": 8104,
+      "type": "image/avif",
+      "cache": "MISS",
+      "cacheControl": "public, max-age=31536000, immutable",
+      "date": "Sun, 11 Oct 2026 06:48:01 GMT"
+    },
+    {
+      "path": "/images/kebabish-logo.svg",
+      "exit": 0,
+      "status": "200",
+      "bytes": 3356,
+      "type": "image/svg+xml",
+      "cache": "HIT",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "date": "Sun, 11 Oct 2026 06:48:00 GMT"
+    }
+  ],
+  "maxSizeNinePhotoTotalsBytes": {
+    "avif": 738009,
+    "webp": 1099616
+  },
+  "limitations": [
+    "Other responsive widths were not individually requested.",
+    "Image bodies were not visually decoded in this inspection; status, content type and content length were checked.",
+    "No browser-based timing, screenshots or device-layout checks.",
+    "Cart, search/filter clicks, gallery dialogs, form validation and WhatsApp delivery were not exercised.",
+    "Business details and current menu prices still require owner confirmation."
+  ]
+}
