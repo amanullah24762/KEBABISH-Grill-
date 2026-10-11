@@ -1,3 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = { images: { remotePatterns: [{ protocol: 'https', hostname: 'static.where-e.com' }] } };
+const nextConfig = {
+  images: { remotePatterns: [{ protocol: 'https', hostname: 'static.where-e.com' }] },
+  async headers() {
+    return [{
+      source: '/images/optimized/:path*',
+      headers: [{ key: 'Cache-Control', value: 'public, max-age=31536000, immutable' }],
+    }];
+  },
+};
 export default nextConfig;

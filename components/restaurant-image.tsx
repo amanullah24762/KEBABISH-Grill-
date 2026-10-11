@@ -1,0 +1,42 @@
+import type { CSSProperties } from 'react';
+import manifest from '@/lib/optimized-images.json';
+
+type ImageAsset = {
+  width: number;
+  height: number;
+  variants: { src: string; width: number }[];
+  placeholder: string;
+};
+
+// Static responsive files avoid request-time image processing, including on cold loads.
+export function RestaurantImage({ src, alt, sizes, className, fill, priority = false }: {
+  src: string;
+  alt: string;
+  sizes: string;
+  className?: string;
+  fill?: boolean;
+  priority?: boolean;
+}) {
+  const asset = (manifest as Record<string, ImageAsset>)[src];
+  const variants = asset?.variants;
+  const fallback = variants?.find(image => image.width >= 960) ?? variants?.[variants.length - 1];
+  const style: CSSProperties = {
+    ...(fill ? { position: 'absolute', inset: 0, width: '100%', height: '100%' } : {}),
+    backgroundImage: asset ? `url("${asset.placeholder}")` : undefined,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+  };
+  return <img
+    src={fallback?.src ?? src}
+    srcSet={variants?.map(image => `${image.src} ${image.width}w`).join(', ')}
+    sizes={sizes}
+    alt={alt}
+    width={asset?.width}
+    height={asset?.height}
+    className={className}
+    style={style}
+    loading={priority ? 'eager' : 'lazy'}
+    fetchPriority={priority ? 'high' : 'auto'}
+    decoding="async"
+  />;
+}
