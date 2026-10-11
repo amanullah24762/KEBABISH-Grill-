@@ -5,6 +5,7 @@ type ImageAsset = {
   width: number;
   height: number;
   variants: { src: string; width: number }[];
+  avifVariants?: { src: string; width: number }[];
   placeholder: string;
 };
 
@@ -19,16 +20,24 @@ export function RestaurantImage({ src, alt, sizes, className, fill, priority = f
 }) {
   const asset = (manifest as Record<string, ImageAsset>)[src];
   const variants = asset?.variants;
+  const avifVariants = asset?.avifVariants;
+  const srcSet = variants?.map(image => `${image.src} ${image.width}w`).join(', ');
+  const avifSrcSet = avifVariants?.map(image => `${image.src} ${image.width}w`).join(', ');
+  const preferred = avifVariants?.[avifVariants.length - 1];
   const fallback = variants?.find(image => image.width >= 960) ?? variants?.[variants.length - 1];
   const style: CSSProperties = {
-    ...(fill ? { position: 'absolute', inset: 0, width: '100%', height: '100%' } : {}),
+    ...(fill ? { position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' } : {}),
     backgroundImage: asset ? `url("${asset.placeholder}")` : undefined,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   };
-  return <img
+  return <>
+    {priority && <link rel="preload" as="image" href={preferred?.src ?? fallback?.src ?? src} imageSrcSet={avifSrcSet ?? srcSet} imageSizes={sizes} type={avifSrcSet ? 'image/avif' : 'image/webp'} fetchPriority="high"/>}
+    <picture className={fill ? 'kg-responsive-picture kg-responsive-picture-fill' : 'kg-responsive-picture'}>
+    {avifSrcSet && <source type="image/avif" srcSet={avifSrcSet} sizes={sizes}/>}
+    <img
     src={fallback?.src ?? src}
-    srcSet={variants?.map(image => `${image.src} ${image.width}w`).join(', ')}
+    srcSet={srcSet}
     sizes={sizes}
     alt={alt}
     width={asset?.width}
@@ -38,5 +47,7 @@ export function RestaurantImage({ src, alt, sizes, className, fill, priority = f
     loading={priority ? 'eager' : 'lazy'}
     fetchPriority={priority ? 'high' : 'auto'}
     decoding="async"
-  />;
+    />
+    </picture>
+  </>;
 }

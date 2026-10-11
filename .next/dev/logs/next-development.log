@@ -103,3 +103,6 @@
 {"timestamp":"11:01:44.097","source":"Browser","level":"WARN","message":"Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior=\"smooth\"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior"}
 {"timestamp":"11:01:44.101","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mDetected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior=\\\"smooth\\\"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior\\u001b[39m\""}
 {"timestamp":"11:01:55.980","source":"Server","level":"LOG","message":"○ Compiling /marriage-hall ..."}
+{"timestamp":"11:13:16.718","source":"Server","level":"LOG","message":"✓ Compiled in 5.2s"}
+{"timestamp":"11:13:46.253","source":"Server","level":"LOG","message":"✓ Compiled in 2000ms"}
+{"timestamp":"11:14:20.485","source":"Server","level":"LOG","message":"✓ Compiled in 259ms"}

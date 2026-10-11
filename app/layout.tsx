@@ -3,6 +3,7 @@ import { Inter, Poppins } from 'next/font/google';
 import { RestaurantShell } from '@/components/restaurant-shell';
 import './restaurant.css';
 import './brand-theme.css';
+import './image-loading.css';
 const body = Inter({ subsets: ['latin'], variable: '--font-body', display: 'swap' });
 const heading = Poppins({ subsets: ['latin'], weight: ['500', '600', '700', '800'], variable: '--font-heading', display: 'swap' });
 export const metadata: Metadata = {

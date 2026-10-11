@@ -1,0 +1,10 @@
+/* Prebuilt responsive images: AVIF first, WebP fallback, no runtime resizing. */
+.kg-responsive-picture{display:block;max-width:100%}
+.kg-responsive-picture-fill{position:absolute;inset:0;width:100%;height:100%;overflow:hidden}
+.hero-photo{animation:none!important}
+.offer-card>.kg-responsive-picture img{object-position:75% 50%;transition:transform .6s}
+.offer-card:hover>.kg-responsive-picture img{transform:scale(1.05)}
+.story-banner>.kg-responsive-picture img{object-position:center 40%}
+.food-image>.kg-responsive-picture img{transition:transform .6s}
+.kg-lightbox-image>.kg-responsive-picture{max-height:70dvh}
+@media(prefers-reduced-motion:reduce){.kg-responsive-picture img{animation:none!important;transition:none!important}}

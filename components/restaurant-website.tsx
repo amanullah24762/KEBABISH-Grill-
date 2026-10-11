@@ -1,8 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useSearchParams } from 'next/navigation';
-import { Suspense, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { RestaurantImage as Image } from './restaurant-image';
 import { Icon } from './restaurant-icons';
 import { Modal, useCart } from './restaurant-shell';
@@ -25,15 +24,13 @@ function Marquee() {
   return <div className="flavor-marquee is-in-view" data-paused={paused}><div className="flavor-track">{[0,1].map(copy => <div key={copy} className="flavor-group" aria-hidden={copy === 1 ? true : undefined}><span><Icon/>Fresh from the grill.</span><i>✦</i><span><Icon name="heart"/>Good food brings us together.</span><i>✦</i><span>Family dining. Memorable occasions.</span><i>✦</i><span>Made with love in Abdul Hakim <b className="orange">♥</b></span><i>✦</i></div>)}</div><button type="button" className="marquee-toggle" aria-label={paused ? 'Resume scrolling text' : 'Pause scrolling text'} aria-pressed={paused} onClick={() => setPaused(!paused)}>{paused ? '▶' : 'Ⅱ'}</button></div>;
 }
 
-function MenuGrid({ full = false }: { full?: boolean }) {
-  const params = useSearchParams();
-  const categoryParam = params.get('category');
-  const [category, setCategory] = useState('All');
+function MenuGrid({ full = false, initialCategory = 'All' }: { full?: boolean; initialCategory?: string }) {
+  const [category, setCategory] = useState(initialCategory);
   const [query, setQuery] = useState('');
   const [selected, setSelected] = useState<MenuItem | null>(null);
   const cart = useCart();
   const categories = ['All', 'BBQ', 'Pakistani', 'Rice', 'Chinese'];
-  useEffect(() => { setCategory(['BBQ', 'Pakistani', 'Rice', 'Chinese'].includes(categoryParam || '') ? categoryParam! : 'All'); }, [categoryParam]);
+  useEffect(() => { setCategory(['BBQ', 'Pakistani', 'Rice', 'Chinese'].includes(initialCategory) ? initialCategory : 'All'); }, [initialCategory]);
   const filtered = menuItems.filter(item => (category === 'All' || item.category === category) && `${item.name} ${item.description}`.toLowerCase().includes(query.trim().toLowerCase()));
   return <section id="menu" className={`section ${full ? 'full-menu' : ''}`}><div className="container"><div className="section-heading"><div><Eyebrow>YOUR NEXT FAVOURITE STARTS HERE</Eyebrow><h2>Big on flavour. <span>Made to share.</span></h2><p>Pick a favourite and ask our team about dishes, portions and prices.</p></div>{!full && <Link href="/menu" className="text-link">View full menu<Icon name="arrow" size={16}/></Link>}</div><div className="menu-toolbar"><div className="category-tabs" role="group" aria-label="Filter menu by category">{categories.map(name => <button key={name} type="button" className={category === name ? 'selected' : ''} aria-pressed={category === name} onClick={() => setCategory(name)}>{name === 'All' ? 'All favourites' : name}</button>)}</div><label className="kg-search-label"><span className="kg-sr-only">Search the menu</span><input className="menu-search" type="search" placeholder="Search your favourites…" value={query} onChange={event => setQuery(event.target.value)}/></label></div>
     <div className="food-grid">{filtered.map(item => <article className="food-card" key={item.id}><button className="food-image kg-image-button" type="button" aria-label={`View ${item.name}`} onClick={() => setSelected(item)}><Image src={item.image} alt={item.name} fill sizes={foodSizes} className="kg-cover"/>{item.badge && <span className="food-badge"><Icon size={12}/>{item.badge}</span>}</button><div className="food-content"><span className="food-category">{item.category.toUpperCase()}</span><h3><button className="kg-title-button" type="button" onClick={() => setSelected(item)}>{item.name}</button></h3><p>{item.description}</p><div className="food-bottom"><strong className="kg-price-note">Ask for price</strong><button type="button" onClick={() => cart.add(item.id)} aria-label={`Add ${item.name} to your enquiry`}>Add to enquiry +</button></div></div></article>)}</div>
@@ -42,7 +39,7 @@ function MenuGrid({ full = false }: { full?: boolean }) {
     <Modal open={!!selected} onClose={() => setSelected(null)} title={selected?.name || 'Menu details'}>{selected && <><div className="kg-detail-image"><Image src={selected.image} alt={selected.name} fill sizes="(max-width: 600px) 100vw, 560px" className="kg-cover" priority/></div><div className="kg-dialog-content"><span className="food-category">{selected.category}</span><p>{selected.description}</p><p className="small">Ask us about portion sizes and today’s price.</p><button className="button full-width" onClick={() => { cart.add(selected.id); setSelected(null); }}>Add to enquiry<Icon name="bag"/></button></div></>}</Modal>
   </div></section>;
 }
-function MenuSection({ full = false }: { full?: boolean }) { return <Suspense fallback={<div className="section container" role="status">Loading the menu…</div>}><MenuGrid full={full}/></Suspense>; }
+function MenuSection({ full = false, initialCategory = 'All' }: { full?: boolean; initialCategory?: string }) { return <MenuGrid full={full} initialCategory={initialCategory}/>; }
 
 function WhyUs() {
   const values = [
@@ -126,10 +123,10 @@ const pageDetails: Record<Exclude<RestaurantPage,'home'>, { label: string; eyebr
   contact: { label: 'Contact', eyebrow: 'LET’S START A CONVERSATION', title: 'Come hungry.', accent: 'We’ll take it from here.', description: 'Find us, call us or send a message. Your next visit starts here.' },
   booking: { label: 'Book Now', eyebrow: 'SAVE A PLACE FOR YOUR PEOPLE', title: 'A table for you.', accent: 'An occasion to remember.', description: 'Prepare a table or marriage hall enquiry, then confirm the details with our team.' },
 };
-export function RestaurantWebsite({ section = 'home' }: { section?: RestaurantPage }) {
+export function RestaurantWebsite({ section = 'home', initialCategory = 'All' }: { section?: RestaurantPage; initialCategory?: string }) {
   return <main id="main">{section !== 'home' && <PageHero {...pageDetails[section]}/>}
     {section === 'home' && <><Hero/><Marquee/><MenuSection/><WhyUs/><Offers/><StoryBanner/><Reviews/><Location/></>}
-    {section === 'menu' && <MenuSection full/>}
+    {section === 'menu' && <MenuSection full initialCategory={initialCategory}/>}
     {section === 'about' && <About/>}
     {section === 'offers' && <Offers/>}
     {section === 'gallery' && <Gallery/>}
