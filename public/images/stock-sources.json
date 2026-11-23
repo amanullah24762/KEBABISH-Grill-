@@ -1,0 +1,51 @@
+{
+  "provider": "Unsplash",
+  "usage": "Illustrative stock photography; these images do not depict Kebabish Grill or its actual dishes.",
+  "images": [
+    {
+      "file": "restaurant-interior.webp",
+      "source": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
+      "download": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1400&q=85&fit=crop&fm=webp"
+    },
+    {
+      "file": "family-dining.webp",
+      "source": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0",
+      "download": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400&q=85&fit=crop&fm=webp"
+    },
+    {
+      "file": "restaurant-entrance.webp",
+      "source": "https://images.unsplash.com/photo-1552566626-52f8b828add9",
+      "download": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1400&q=85&fit=crop&fm=webp"
+    },
+    {
+      "file": "celebration-stage.webp",
+      "source": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622",
+      "download": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=1400&q=85&fit=crop&fm=webp"
+    },
+    {
+      "file": "celebration-dining.webp",
+      "source": "https://images.unsplash.com/photo-1519225421980-715cb0215aed",
+      "download": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1400&q=85&fit=crop&fm=webp"
+    },
+    {
+      "file": "bbq-platter.webp",
+      "source": "https://images.unsplash.com/photo-1532550907401-a500c9a57435",
+      "download": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=1400&q=85&fit=crop&fm=webp"
+    },
+    {
+      "file": "family-meal.webp",
+      "source": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7",
+      "download": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=1400&q=85&fit=crop&fm=webp"
+    },
+    {
+      "file": "rice-platter.webp",
+      "source": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8",
+      "download": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1400&q=85&fit=crop&fm=webp"
+    },
+    {
+      "file": "chinese-platter.webp",
+      "source": "https://images.unsplash.com/photo-1512058564366-18510be2db19",
+      "download": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=1400&q=85&fit=crop&fm=webp"
+    }
+  ]
+}

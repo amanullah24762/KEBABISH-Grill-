@@ -1,197 +1,371 @@
 {
   "/images/bbq-platter.webp": {
-    "width": 727,
-    "height": 963,
+    "width": 1400,
+    "height": 935,
     "variants": [
       {
-        "src": "/images/optimized/bbq-platter-d2c6d96ee306-400.webp",
-        "width": 400
+        "src": "/images/optimized/bbq-platter-b64d7ce5ecfd-320.webp",
+        "width": 320
       },
       {
-        "src": "/images/optimized/bbq-platter-d2c6d96ee306-640.webp",
-        "width": 640
+        "src": "/images/optimized/bbq-platter-b64d7ce5ecfd-480.webp",
+        "width": 480
       },
       {
-        "src": "/images/optimized/bbq-platter-d2c6d96ee306-727.webp",
-        "width": 727
+        "src": "/images/optimized/bbq-platter-b64d7ce5ecfd-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/optimized/bbq-platter-b64d7ce5ecfd-1200.webp",
+        "width": 1200
       }
     ],
-    "placeholder": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAAAwBACdASoQABUAPxFysFAsJqSisAgBgCIJaACdMoAChXtSe5pdfu+kVBgA+kEZh4bK40B9mA5ozT2VOBgojNIWzhMQDiThSG9m0rCFB1OA0q2nAzYf9L1SU/HaCuXwdbCIsL7Un3dPGXe2lVUCGasMgHkb9rkJrbFvxXItn6a0Fb9eG6SvUrY8MU57OrSY7BAAAA=="
+    "avifVariants": [
+      {
+        "src": "/images/optimized/bbq-platter-b64d7ce5ecfd-320.avif",
+        "width": 320
+      },
+      {
+        "src": "/images/optimized/bbq-platter-b64d7ce5ecfd-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/images/optimized/bbq-platter-b64d7ce5ecfd-768.avif",
+        "width": 768
+      },
+      {
+        "src": "/images/optimized/bbq-platter-b64d7ce5ecfd-1200.avif",
+        "width": 1200
+      }
+    ],
+    "placeholder": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoQAAsABABoJbACdAEQOjMwYPW8AADN68WAzJ/5B/G8Z3vSxSPuFGaYZwdt+notWL5wbfQqBuAnq0vbbx/76aVh4SJYwPsvtfaThPdJ+hgQAA=="
   },
   "/images/celebration-dining.webp": {
-    "width": 1200,
-    "height": 1200,
+    "width": 1400,
+    "height": 933,
     "variants": [
       {
-        "src": "/images/optimized/celebration-dining-9ad027dea88a-400.webp",
-        "width": 400
+        "src": "/images/optimized/celebration-dining-e4a8e6c4b7dc-320.webp",
+        "width": 320
       },
       {
-        "src": "/images/optimized/celebration-dining-9ad027dea88a-640.webp",
-        "width": 640
+        "src": "/images/optimized/celebration-dining-e4a8e6c4b7dc-480.webp",
+        "width": 480
       },
       {
-        "src": "/images/optimized/celebration-dining-9ad027dea88a-960.webp",
-        "width": 960
+        "src": "/images/optimized/celebration-dining-e4a8e6c4b7dc-768.webp",
+        "width": 768
       },
       {
-        "src": "/images/optimized/celebration-dining-9ad027dea88a-1200.webp",
+        "src": "/images/optimized/celebration-dining-e4a8e6c4b7dc-1200.webp",
         "width": 1200
       }
     ],
-    "placeholder": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAQAgCdASoQABAABABoJbACdH8AgtQ5ONUAAP7aJ2FdaD7m9r5MHRL66L8kyEB6cOoB67b27ZMe/Ju8nbenW7zCeav+H7kwO/ThoRDCDy7vmLfVXH6qGD7z4VuVQME5wKO9WazCIkyTqyHiFxIAAA=="
+    "avifVariants": [
+      {
+        "src": "/images/optimized/celebration-dining-e4a8e6c4b7dc-320.avif",
+        "width": 320
+      },
+      {
+        "src": "/images/optimized/celebration-dining-e4a8e6c4b7dc-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/images/optimized/celebration-dining-e4a8e6c4b7dc-768.avif",
+        "width": 768
+      },
+      {
+        "src": "/images/optimized/celebration-dining-e4a8e6c4b7dc-1200.avif",
+        "width": 1200
+      }
+    ],
+    "placeholder": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQAAsABABoJQBOgMYOupxgSYZwAP6RdkqkCPSB3FGxknodWIQLsD22ei3576qBetjeeNJGjyABvSlIAjncRingQGHxlSiJNWiFFR+Vcks4B/AAAAA="
   },
   "/images/celebration-stage.webp": {
-    "width": 1156,
-    "height": 652,
+    "width": 1400,
+    "height": 935,
     "variants": [
       {
-        "src": "/images/optimized/celebration-stage-9ded8d2e5970-400.webp",
-        "width": 400
+        "src": "/images/optimized/celebration-stage-4764c94e4b20-320.webp",
+        "width": 320
       },
       {
-        "src": "/images/optimized/celebration-stage-9ded8d2e5970-640.webp",
-        "width": 640
+        "src": "/images/optimized/celebration-stage-4764c94e4b20-480.webp",
+        "width": 480
       },
       {
-        "src": "/images/optimized/celebration-stage-9ded8d2e5970-960.webp",
-        "width": 960
+        "src": "/images/optimized/celebration-stage-4764c94e4b20-768.webp",
+        "width": 768
       },
       {
-        "src": "/images/optimized/celebration-stage-9ded8d2e5970-1156.webp",
-        "width": 1156
+        "src": "/images/optimized/celebration-stage-4764c94e4b20-1200.webp",
+        "width": 1200
       }
     ],
-    "placeholder": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoQAAkABABoJbACdAEK03zyQAAAyxqGgxdgn9tTjmC2PuWw6TTKlntTqjx2SJ4hpJSVn3/CFujwgBXPkPd5gh/yql7lrSPnx8goaG//X3DQAAAA"
+    "avifVariants": [
+      {
+        "src": "/images/optimized/celebration-stage-4764c94e4b20-320.avif",
+        "width": 320
+      },
+      {
+        "src": "/images/optimized/celebration-stage-4764c94e4b20-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/images/optimized/celebration-stage-4764c94e4b20-768.avif",
+        "width": 768
+      },
+      {
+        "src": "/images/optimized/celebration-stage-4764c94e4b20-1200.avif",
+        "width": 1200
+      }
+    ],
+    "placeholder": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAwAgCdASoQAAsABABoJbACdAYv1q+fXzp1FAD+kaeXHELz9VLszOAdjlgaGM3xsVZcpE7dw6zgbgMGs0Z6kVrK+U7CrXQe5Pyf4HMx+aHD+erQqzhqmgJcnXSGMSAUYCmmxAAA"
   },
   "/images/chinese-platter.webp": {
-    "width": 1200,
-    "height": 900,
+    "width": 1400,
+    "height": 932,
     "variants": [
       {
-        "src": "/images/optimized/chinese-platter-a057a396b3cc-400.webp",
-        "width": 400
+        "src": "/images/optimized/chinese-platter-63976b139421-320.webp",
+        "width": 320
       },
       {
-        "src": "/images/optimized/chinese-platter-a057a396b3cc-640.webp",
-        "width": 640
+        "src": "/images/optimized/chinese-platter-63976b139421-480.webp",
+        "width": 480
       },
       {
-        "src": "/images/optimized/chinese-platter-a057a396b3cc-960.webp",
-        "width": 960
+        "src": "/images/optimized/chinese-platter-63976b139421-768.webp",
+        "width": 768
       },
       {
-        "src": "/images/optimized/chinese-platter-a057a396b3cc-1200.webp",
+        "src": "/images/optimized/chinese-platter-63976b139421-1200.webp",
         "width": 1200
       }
     ],
-    "placeholder": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADwAQCdASoQAAwABABoJbACdAYvWpF8a2AA4mRx8oN4Y9ftwgz1S5htH+1enF0KP8R5d1mkvzsR7Rduz+qO/7pM+0h3zuYvA9jpETBlFMbuQe3td5rWZ6AfBfXDArtK0ms/wkCAAAA="
+    "avifVariants": [
+      {
+        "src": "/images/optimized/chinese-platter-63976b139421-320.avif",
+        "width": 320
+      },
+      {
+        "src": "/images/optimized/chinese-platter-63976b139421-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/images/optimized/chinese-platter-63976b139421-768.avif",
+        "width": 768
+      },
+      {
+        "src": "/images/optimized/chinese-platter-63976b139421-1200.avif",
+        "width": 1200
+      }
+    ],
+    "placeholder": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAACwAgCdASoQAAsABABoJZACdH8Agoy3lTDzJCMsxAAA/repImHLpYIbx55ISvFFGrBw322dudAOy8pPH97UupSYYncZwJtgf3gVpoSK1daYbrz/+XD6kpUBcNJiGBqhsYAAAA=="
   },
   "/images/family-dining.webp": {
-    "width": 1200,
-    "height": 1600,
+    "width": 1400,
+    "height": 933,
     "variants": [
       {
-        "src": "/images/optimized/family-dining-741fb9c59c68-400.webp",
-        "width": 400
+        "src": "/images/optimized/family-dining-54ef1490280b-320.webp",
+        "width": 320
       },
       {
-        "src": "/images/optimized/family-dining-741fb9c59c68-640.webp",
-        "width": 640
+        "src": "/images/optimized/family-dining-54ef1490280b-480.webp",
+        "width": 480
       },
       {
-        "src": "/images/optimized/family-dining-741fb9c59c68-960.webp",
-        "width": 960
+        "src": "/images/optimized/family-dining-54ef1490280b-768.webp",
+        "width": 768
       },
       {
-        "src": "/images/optimized/family-dining-741fb9c59c68-1200.webp",
+        "src": "/images/optimized/family-dining-54ef1490280b-1200.webp",
         "width": 1200
       }
     ],
-    "placeholder": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAACwAwCdASoQABUAPxFysFAsJqSisAgBgCIJZQAAXK9rW2WZmFbOAADNbzbXLarFT/3AXv7ouFImaas85+aabxPrQjEQKREN6ansVCNTnX6JAUFFDfKwn6QFm6OVXcWR1BP/niL97aulb9hf2k7cpvYiqV33cSlrRv/Qvt3Q3F4J20Pn296dkAAA"
+    "avifVariants": [
+      {
+        "src": "/images/optimized/family-dining-54ef1490280b-320.avif",
+        "width": 320
+      },
+      {
+        "src": "/images/optimized/family-dining-54ef1490280b-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/images/optimized/family-dining-54ef1490280b-768.avif",
+        "width": 768
+      },
+      {
+        "src": "/images/optimized/family-dining-54ef1490280b-1200.avif",
+        "width": 1200
+      }
+    ],
+    "placeholder": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAQAgCdASoQAAsABABoJYgAD40xdBBLVdisAPzdceWz9PxxYP4nQbeGdRybCFTpjD7T2+z+ZWUOXrzM1dzH0vYcdz5fjHLOFQOAKDgzesbNZ7aYi4wwTp8wuPH2+rXEB1YnHeyokknBu7KlbgAAAA=="
   },
   "/images/family-meal.webp": {
-    "width": 1200,
-    "height": 1600,
+    "width": 1400,
+    "height": 2100,
     "variants": [
       {
-        "src": "/images/optimized/family-meal-231a27e957c6-400.webp",
-        "width": 400
+        "src": "/images/optimized/family-meal-53d9cb668e22-320.webp",
+        "width": 320
       },
       {
-        "src": "/images/optimized/family-meal-231a27e957c6-640.webp",
-        "width": 640
+        "src": "/images/optimized/family-meal-53d9cb668e22-480.webp",
+        "width": 480
       },
       {
-        "src": "/images/optimized/family-meal-231a27e957c6-960.webp",
-        "width": 960
+        "src": "/images/optimized/family-meal-53d9cb668e22-768.webp",
+        "width": 768
       },
       {
-        "src": "/images/optimized/family-meal-231a27e957c6-1200.webp",
+        "src": "/images/optimized/family-meal-53d9cb668e22-1200.webp",
         "width": 1200
       }
     ],
-    "placeholder": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAADQAwCdASoQABUAPxFysFAsJqSisAgBgCIJYgCdACPliJjfaIhZ4UAA/sB2WhZTQNM4vqcg43JAPI5VVJIPeAdYPHgSlrnoppw7cCmCu4ufMUCkDuDjQmPkC3WJHibguI3Tax4n+G8ksnuIfcaL+G7C3vNNxJp1z/dIZcUwdVD3DQgMOi165CEaAAA="
+    "avifVariants": [
+      {
+        "src": "/images/optimized/family-meal-53d9cb668e22-320.avif",
+        "width": 320
+      },
+      {
+        "src": "/images/optimized/family-meal-53d9cb668e22-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/images/optimized/family-meal-53d9cb668e22-768.avif",
+        "width": 768
+      },
+      {
+        "src": "/images/optimized/family-meal-53d9cb668e22-1200.avif",
+        "width": 1200
+      }
+    ],
+    "placeholder": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAABwBACdASoQABgAPxFysFAsJqSisAgBgCIJbAC7MoAlvhb244mlCUkzmDHUAAD545BBSnp4Rqk6yWuFw8B7x7wahQgV9TtJLj25y3SyAfn9gqkKSQDFKR1BBdCc2mZrdWY+o/cOb5tckr99u0n1ZIABloIZs3A1W+Gj+i2l2/bjn9XEF/lEWFczXL9Ii2OH+FnycY20PcpiM7dBm2DOvh4BKKwAAA=="
   },
   "/images/restaurant-entrance.webp": {
-    "width": 947,
-    "height": 1680,
+    "width": 1400,
+    "height": 933,
     "variants": [
       {
-        "src": "/images/optimized/restaurant-entrance-4b36bfa8a5df-400.webp",
-        "width": 400
+        "src": "/images/optimized/restaurant-entrance-05aed58471f9-320.webp",
+        "width": 320
       },
       {
-        "src": "/images/optimized/restaurant-entrance-4b36bfa8a5df-640.webp",
-        "width": 640
+        "src": "/images/optimized/restaurant-entrance-05aed58471f9-480.webp",
+        "width": 480
       },
       {
-        "src": "/images/optimized/restaurant-entrance-4b36bfa8a5df-947.webp",
-        "width": 947
-      }
-    ],
-    "placeholder": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAAAQBACdASoQABwAPxFysVAsJqSisAgBgCIJZgCdMoAlpAv8Kmj3M3Tc0AD3sresGaAQMgVWwJ0ff9s7Xm1QqrJ8XtqQ5w0oXJhVYHR8/7LG7vJY+1v/ZzHE3TPzNW+5JYLp5s6giEaMaemBrw5hfc+Fu0MMGtRZmMe3f2kdsIr9h1PEoU79BzS8I9fR/qOFzdAAAA=="
-  },
-  "/images/restaurant-interior.webp": {
-    "width": 1200,
-    "height": 900,
-    "variants": [
-      {
-        "src": "/images/optimized/restaurant-interior-d0e9dec8dda8-400.webp",
-        "width": 400
+        "src": "/images/optimized/restaurant-entrance-05aed58471f9-768.webp",
+        "width": 768
       },
       {
-        "src": "/images/optimized/restaurant-interior-d0e9dec8dda8-640.webp",
-        "width": 640
-      },
-      {
-        "src": "/images/optimized/restaurant-interior-d0e9dec8dda8-960.webp",
-        "width": 960
-      },
-      {
-        "src": "/images/optimized/restaurant-interior-d0e9dec8dda8-1200.webp",
+        "src": "/images/optimized/restaurant-entrance-05aed58471f9-1200.webp",
         "width": 1200
       }
     ],
-    "placeholder": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoQAAwABABoJbACdAYtKt1K5QAA/uXZ7UTYl//epC+WPuWoCMA+oZsWU4QHqZeZBEMmILGWPLCvuLyHXYejVh6cr33VrtsG8CSBEAAA"
-  },
-  "/images/rice-platter.webp": {
-    "width": 720,
-    "height": 960,
-    "variants": [
+    "avifVariants": [
       {
-        "src": "/images/optimized/rice-platter-48829871d14d-400.webp",
-        "width": 400
+        "src": "/images/optimized/restaurant-entrance-05aed58471f9-320.avif",
+        "width": 320
       },
       {
-        "src": "/images/optimized/rice-platter-48829871d14d-640.webp",
-        "width": 640
+        "src": "/images/optimized/restaurant-entrance-05aed58471f9-480.avif",
+        "width": 480
       },
       {
-        "src": "/images/optimized/rice-platter-48829871d14d-720.webp",
-        "width": 720
+        "src": "/images/optimized/restaurant-entrance-05aed58471f9-768.avif",
+        "width": 768
+      },
+      {
+        "src": "/images/optimized/restaurant-entrance-05aed58471f9-1200.avif",
+        "width": 1200
       }
     ],
-    "placeholder": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAAAwBACdASoQABUAPxFysFAsJqSisAgBgCIJbACdMoRwBtAA5HcwI7Hq4ZAA/oz1kndZ4t2Z9FwmmDblYgXIV+5wRxBdNYG7+hyd7gwXYMmo+r0SD1ld9rSm/OSfZtVRqA4yrrAMN9rVcBOdp/3O+pQuMuiikLLfDuviejpBNxE3xyxAeEBy1nOnWRvK9eTH5obbWoZ+169LJVqsV46a+JigAAA="
+    "placeholder": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABwAgCdASoQAAsABABoJZgCdIExFcOW/6zJa68AAP2p9nOQI6qcwHXp/t71Tyu/xER/xZy7Wa4dc+rWntlppENFJbBoGMdhVUqcUxz9iJy8AxWt+oGD8AAA"
+  },
+  "/images/restaurant-interior.webp": {
+    "width": 1400,
+    "height": 933,
+    "variants": [
+      {
+        "src": "/images/optimized/restaurant-interior-37ac169458ca-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/images/optimized/restaurant-interior-37ac169458ca-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/images/optimized/restaurant-interior-37ac169458ca-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/optimized/restaurant-interior-37ac169458ca-1200.webp",
+        "width": 1200
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/images/optimized/restaurant-interior-37ac169458ca-320.avif",
+        "width": 320
+      },
+      {
+        "src": "/images/optimized/restaurant-interior-37ac169458ca-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/images/optimized/restaurant-interior-37ac169458ca-768.avif",
+        "width": 768
+      },
+      {
+        "src": "/images/optimized/restaurant-interior-37ac169458ca-1200.avif",
+        "width": 1200
+      }
+    ],
+    "placeholder": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoQAAsABABoJZQC7AELi5AREQwAAP72r00iEHFb7J9tAhbH+051N7W4TtDlJBydPJsXIPXdjoFTK+pQSCOGfwB88vVsfrQOIs0cAAAA"
+  },
+  "/images/rice-platter.webp": {
+    "width": 1400,
+    "height": 1594,
+    "variants": [
+      {
+        "src": "/images/optimized/rice-platter-36f81bb07570-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/images/optimized/rice-platter-36f81bb07570-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/images/optimized/rice-platter-36f81bb07570-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/optimized/rice-platter-36f81bb07570-1200.webp",
+        "width": 1200
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/images/optimized/rice-platter-36f81bb07570-320.avif",
+        "width": 320
+      },
+      {
+        "src": "/images/optimized/rice-platter-36f81bb07570-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/images/optimized/rice-platter-36f81bb07570-768.avif",
+        "width": 768
+      },
+      {
+        "src": "/images/optimized/rice-platter-36f81bb07570-1200.avif",
+        "width": 1200
+      }
+    ],
+    "placeholder": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAACQBACdASoQABIAPxFysFAsJqSisAgBgCIJbAC7Ad0jeqZqYf5clcT/5bB1inAA/ubQjsVUXHX3pYTm7ZeoCNJXqbtwvNfmQY8pZ8RWE9DzsxlmEry+e5bJklj3MmE4tGIm30drq0v0HZBICneFIhcAfZaAHGkZYRPDnWrklm7f5VYlKfETcZufqUybsCK4a+buTPtTkN5/4pmphyyYmkTpHStYw3QAAAA="
   }
 }
