@@ -544,7 +544,7 @@ Hall/table availability, booking requests dashboard, confirmation process aur no
 
 Mobile/browser review, accessibility checks, custom domain, SEO essentials, analytics aur real-world connection par performance measurement karein.
 
-## 18. Website maintain kaise karni hai
+## 18. Website maintain kaise karni hai.  
 
 | Change | Kahan update karna hai |
 | --- | --- |
